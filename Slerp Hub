@@ -1,0 +1,318 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Slerp Hub", "DarkTheme")
+
+local Tab = Window:NewTab("Home")
+local Tab2 = Window:NewTab("Main")
+
+local Section = Tab2:NewSection("Main")
+local Section2 = Tab2:NewSection("Grind")
+
+Section:NewButton("Skip Level", "Skips The Current Level You're On", function()
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.1)
+
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Slerp Hub";
+		Text = "Level Skipped!";
+		Duration = 5;
+	})
+end)
+
+Section:NewButton("Auto Win", "Auto Wins You're Current Dimension", function()
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	local A_1 = 77.97396564483643
+	local A_2 = "Level 2"
+	local A_3 = "Normal"
+	local A_4 = false
+	local Event = game:GetService("ReplicatedStorage").BeatLevel
+	Event:FireServer(A_1, A_2, A_3, A_4)
+
+	wait(0.2)
+
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Slerp Hub";
+		Text = "Beated All Levels!";
+		Duration = 5;
+	})
+end)
+
+Section2:NewButton("Stars", "Grinds 1 Star Each 3.5 Seconds", function()
+
+	while true do
+		local A_1 = "Level 1"
+		local Event = game:GetService("ReplicatedStorage").GotStar
+		Event:FireServer(A_1)
+		wait(0)
+	end
+end)
+
+Section2:NewButton("Gems", "[COMING SOON]", function()
+	print("Clicked")
+end)
