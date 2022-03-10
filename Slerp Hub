@@ -1,12 +1,26 @@
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Slerp Hub V1.2";
+		Text = "Update: V1.2.1";
+		Duration = 5;
+	})
+
+Wait(0.2)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Slerp Hub", "DarkTheme")
 
 local Tab = Window:NewTab("Home")
 local Tab2 = Window:NewTab("Main")
+local Tab3 = Window:NewTab("Credits")
+local Tab4 = Window:NewTab("TEST")
 
 local Section = Tab2:NewSection("Main")
 local Section2 = Tab2:NewSection("Grind")
+local Section3 = Tab4:NewSection("TEST SECTION")
+local Section4 = Tab3:NewSection("Helpers")
+local Section5 = Tab3:NewSection("Owner")
+
 
 Section:NewButton("Skip Level", "Skips The Current Level You're On", function()
 	local A_1 = 77.97396564483643
@@ -316,3 +330,40 @@ end)
 Section2:NewButton("Gems", "[COMING SOON]", function()
 	print("Clicked")
 end)
+
+Section3:NewButton("TEST", "COMING SOON", function()
+    --TEST
+end)
+
+Section3:NewButton("TEST", "COMING SOON", function()
+    --TEST
+end)
+
+Section3:NewButton("TEST", "COMING SOON", function()
+    --TEST
+end)
+
+Section4:NewButton("ayoD4RK", "Helper, Scripter, CEO, Owner", function()
+    --TEST
+end)
+
+Section4:NewButton("FIREG_DYT", "Helper", function()
+    --TEST
+end)
+
+Section4:NewButton("mxqlq", "Scripter", function()
+    --TEST
+end)
+
+Section4:NewButton("Trojan1x1x1x1", "Designer", function()
+    --TEST
+end)
+
+Section4:NewButton("W4RTN", "Helper", function()
+    --TEST
+end)
+
+Section5:NewButton("ayoD4RK, mxqlq, FIREG_DYT", "Owners, Real Owner: ayoD4RK", function()
+    --TEST
+end)
+
