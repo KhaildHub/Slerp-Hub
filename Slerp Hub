@@ -1,8 +1,8 @@
-	game.StarterGui:SetCore("SendNotification",  {
-		Title = "Slerp Hub V1.2";
-		Text = "Update: V1.2.1";
-		Duration = 5;
-	})
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Slerp Hub V1.2";
+	Text = "Update: V1.2.1";
+	Duration = 5;
+})
 
 Wait(0.2)
 
@@ -328,42 +328,324 @@ Section2:NewButton("Stars", "Grinds 1 Star Each 3.5 Seconds", function()
 end)
 
 Section2:NewButton("Gems", "[COMING SOON]", function()
-	print("Clicked")
-end)
+	while true do
 
-Section3:NewButton("TEST", "COMING SOON", function()
-    --TEST
-end)
+		wait(0.2)
 
-Section3:NewButton("TEST", "COMING SOON", function()
-    --TEST
-end)
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
 
-Section3:NewButton("TEST", "COMING SOON", function()
-    --TEST
-end)
+		wait(0.2)
 
-Section4:NewButton("ayoD4RK", "Helper, Scripter, CEO, Owner", function()
-    --TEST
-end)
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
 
-Section4:NewButton("FIREG_DYT", "Helper", function()
-    --TEST
-end)
+		wait(0.2)
 
-Section4:NewButton("mxqlq", "Scripter", function()
-    --TEST
-end)
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
 
-Section4:NewButton("Trojan1x1x1x1", "Designer", function()
-    --TEST
-end)
+		wait(0.2)
 
-Section4:NewButton("W4RTN", "Helper", function()
-    --TEST
-end)
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
 
-Section5:NewButton("ayoD4RK, mxqlq, FIREG_DYT", "Owners, Real Owner: ayoD4RK", function()
-    --TEST
-end)
+		wait(0.2)
 
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.2)
+
+		local A_1 = 77.97396564483643
+		local A_2 = "Level 2"
+		local A_3 = "Normal"
+		local A_4 = false
+		local Event = game:GetService("ReplicatedStorage").BeatLevel
+		Event:FireServer(A_1, A_2, A_3, A_4)
+
+		wait(0.3)
+		-- Script generated by SimpleSpy - credits to exxtremewa#9394
+		-- This generator is IN DEVELOPMENT, not compatible with all types/classes yet
+
+		local args = {
+			[1] = 0,
+		}
+
+		game:GetService("ReplicatedStorage").SetLevel:FireServer(unpack(args))
+
+		wait(0.2)
+	end
+
+	Section3:NewButton("Unlock All Dimensions", "(BETA TESTING RN)", function()
+		--TEST
+	end)
+
+	Section3:NewButton("TEST", "COMING SOON", function()
+		--TEST
+	end)
+
+	Section3:NewButton("TEST", "COMING SOON", function()
+		--TEST
+	end)
+
+	Section4:NewButton("ayoD4RK", "Helper, Scripter, CEO, Owner", function()
+		--TEST
+	end)
+
+	Section4:NewButton("FIREG_DYT", "Helper", function()
+		--TEST
+	end)
+
+	Section4:NewButton("mxqlq", "Scripter", function()
+		--TEST
+	end)
+
+	Section4:NewButton("Trojan1x1x1x1", "Designer", function()
+		--TEST
+	end)
+
+	Section4:NewButton("W4RTN", "Helper", function()
+		--TEST
+	end)
+	
+	Section4:NewButton("W4RTN", "Helper", function()
+		--TEST
+	end)
+end)
